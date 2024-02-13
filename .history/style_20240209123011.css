@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input[type="text"], button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.book-item button {
+    float: right;
+}
